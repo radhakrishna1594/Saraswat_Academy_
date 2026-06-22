@@ -1,5 +1,7 @@
 window.BASE_URL =
-    location.hostname === "127.0.0.1" ||
-    location.hostname === "localhost"
-        ? ""
-        : "/Saraswat_Academy";
+location.hostname === "localhost" ||
+location.hostname === "127.0.0.1"
+
+? ""
+
+: "/Saraswat_Academy_";
